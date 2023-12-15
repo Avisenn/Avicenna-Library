@@ -1,0 +1,59 @@
+body {
+    background-image: url('back.jpg');
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.halaman {
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    background-color: black;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 60px;
+    display: block;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+}
+nav ul ul li {
+    width: auto;
+    position: relative;
+    float: none;
+    display: list-item;
+
+}
+nav ul ul ul li {
+    top:-60px;
+    left: 180px;
+}
+
+#judul {
+    text-align: center;
+    font-size: 40px;
+}
